@@ -1,0 +1,16 @@
+{
+  "name": "hackutd-unit-testing",
+  "version": "1.0.0",
+  "description": "Unit testing workshop",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "mocha test/ --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}
