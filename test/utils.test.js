@@ -9,7 +9,7 @@ describe('utils', function () {
     });
     it('handles non-strings', function () {
       const result = utils.reverse(0);
-      assert.equal(result, '');
+      assert.equal(result, undefined);
     });
   });
   describe('isString', function () {
@@ -33,7 +33,7 @@ describe('utils', function () {
     });
     it('handles non-strings', function () {
       const result = utils.piglatin(0);
-      assert.equal(result, '');
+      assert.equal(result, undefined);
     });
   });
 });
