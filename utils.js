@@ -3,8 +3,7 @@ module.exports = {
     if (this.isString(text)) {
       return text.split('').reverse().join('');
     }
-
-    return '';    
+    return undefined;    
   },  
   isString(value) {
     return typeof value === 'string';
@@ -23,7 +22,6 @@ module.exports = {
 
       return sentence;
     }
-    
-    return '';
+    return undefined;
   },
 };
